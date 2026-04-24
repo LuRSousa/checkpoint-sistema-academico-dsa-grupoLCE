@@ -13,6 +13,19 @@ void calcular_derivada(){
     scanf("%f", &b);
     printf("Digite o valor de c: ");
     scanf("%f", &c);
+
+    float delta = b*b - 4*a*c;
+ 
+    if (delta > 0) {
+        float x1 = (-b + sqrt(delta)) / (2*a);
+        float x2 = (-b - sqrt(delta)) / (2*a);
+ 
+    } else if (delta == 0) {
+        float x1 = -b / (2*a);
+
+    }else{
+
+    }
 }
 
 float validar_nota(nota){
