@@ -16,6 +16,13 @@ int menu(){
     printf("Opcao: ");
     scanf("%d", &opcao);
 
+    while(opcao < 1 || opcao > 3){
+        printf("\nValor Invalido! O valor deve estar entre 1 e 3.\n");
+        printf("Selecione novamente o que deseja fazer: \n1- Calcular Media \n2- Calcular Derivada \n3- Sair\n");
+        printf("Opcao: ");
+        scanf("%d", &opcao);
+    }
+
     return opcao;
 }
 
