@@ -2,10 +2,15 @@
 
 ## Modalidade
 Grupo de 5 integrantes
+
 Caio Henrique Ferraz da Silva - 568992
+
 Enzo Caruso Peter - 570908
+
 Leonardo Figueredo dos Santos - 573653
+
 Leonardo Robert Maulicino - 570329
+
 Lucas Ramos de Sousa - 573901
 
 ## Regras
