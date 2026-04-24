@@ -5,6 +5,19 @@ float media;
 float nota1, nota2;
 float presenca;
 float a, b, c;
+int opcao;
+
+int menu(){
+    printf("\n==================\n");
+    printf("\nSISTEMA EQUIPE LCE\n");
+    printf("\n==================\n");
+
+    printf("Selecione o que deseja fazer: \n1- Calcular Media \n2- Calcular Derivada \n3- Sair \n");
+    printf("Opcao: ");
+    scanf("%d", &opcao);
+
+    return opcao;
+}
 
 void calcular_derivada(){
     printf("Digite o valor de a: ");
