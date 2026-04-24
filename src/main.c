@@ -22,6 +22,11 @@ float calcular_media(){
     printf("Digite a segunda nota: ");
     scanf("%f", &nota2);
     nota2 = validar_nota(nota2);
+
+    media = (nota1+nota2)/2;
+    printf("A media do usuario e: %.1f\n", media);
+
+    return media;
 }
 
 
