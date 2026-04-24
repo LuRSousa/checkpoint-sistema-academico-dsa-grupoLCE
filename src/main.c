@@ -38,15 +38,22 @@ int situacao_academica(media) {
         printf("Digite a presenca novamente: ");
         scanf("%f", &presenca);
     }
-    if (media >= 6 && presenca >= 75) {
-        
-    } else if (media < 6 && presenca >= 75) {
-        
-    } else if (media >= 6 && presenca < 75) {
-        
-    } else {
-        
+    
+    if(!media){
+        printf("Media não calculada");
+        return 0;
     }
+
+    if (media >= 6 && presenca >= 75) {
+        printf("Aluno aprovado com media e presenca");
+    } else if (media < 6 && presenca >= 75) {
+        printf("Aluno reprovado por media");
+    } else if (media >= 6 && presenca < 75) {
+        printf("Aluno reprovado por presenca");
+    } else {
+        printf("Aluno reprovado por media e presenca");
+    }
+    return 1;
 }
 
 int main() {
