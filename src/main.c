@@ -1,8 +1,19 @@
 #include<stdio.h>
+#include<math.h>
 
 float media; 
 float nota1, nota2;
 float presenca;
+float a, b, c;
+
+void calcular_derivada(){
+    printf("Digite o valor de a: ");
+    scanf("%f", &a);
+    printf("Digite o valor de b: ");
+    scanf("%f", &b);
+    printf("Digite o valor de c: ");
+    scanf("%f", &c);
+}
 
 float validar_nota(nota){
     float nota_aux = nota;
