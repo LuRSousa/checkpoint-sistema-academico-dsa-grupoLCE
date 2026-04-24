@@ -33,6 +33,12 @@ float calcular_media(){
 int situacao_academica(media) {
     printf("Digite a presenca do aluno: ");
     scanf("%f", &presenca);
+    while(presenca<0 || presenca>10){
+        printf("O valor digitado deve ser entre 0 e 100.\n");
+        printf("Digite a presenca novamente: ");
+        scanf("%f", &presenca);
+    }
+
 }
 
 int main() {
