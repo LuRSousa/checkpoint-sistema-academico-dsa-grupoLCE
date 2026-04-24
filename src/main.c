@@ -38,7 +38,15 @@ int situacao_academica(media) {
         printf("Digite a presenca novamente: ");
         scanf("%f", &presenca);
     }
-
+    if (media >= 6 && presenca >= 75) {
+        
+    } else if (media < 6 && presenca >= 75) {
+        
+    } else if (media >= 6 && presenca < 75) {
+        
+    } else {
+        
+    }
 }
 
 int main() {
