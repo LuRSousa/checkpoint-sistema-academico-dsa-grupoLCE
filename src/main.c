@@ -19,12 +19,15 @@ void calcular_derivada(){
     if (delta > 0) {
         float x1 = (-b + sqrt(delta)) / (2*a);
         float x2 = (-b - sqrt(delta)) / (2*a);
- 
+        printf("Duas raizes reais:\n");
+        printf("x1 = %.2f\n", x1);
+        printf("x2 = %.2f\n", x2);
     } else if (delta == 0) {
         float x1 = -b / (2*a);
-
+        printf("Uma raiz real:\n");
+        printf("x = %.2f\n", x1);
     }else{
-
+        printf("Nao existem raizes reais.\n");
     }
 }
 
