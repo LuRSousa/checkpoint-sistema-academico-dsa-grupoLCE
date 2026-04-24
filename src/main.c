@@ -1,7 +1,8 @@
 #include<stdio.h>
 
 float media; 
-float nota1, nota2; 
+float nota1, nota2;
+float presenca;
 
 float validar_nota(nota){
     float nota_aux = nota;
@@ -29,6 +30,10 @@ float calcular_media(){
     return media;
 }
 
+int situacao_academica(media) {
+    printf("Digite a presenca do aluno: ");
+    scanf("%f", &presenca);
+}
 
 int main() {
     
